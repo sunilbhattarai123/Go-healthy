@@ -1,22 +1,90 @@
-.title{
-    color: green;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Moonrocks&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
 }
-nav{
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.title {
+  color: green;
 }
-ul>li{
-    display: inline;
-    margin: 10px;
-    font-size: medium;
-    padding-right: 4px;
-   
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-ul>li>a{
-    color: black;
-    text-decoration: none;
+.list {
+  display: inline;
+  margin: 10px;
+  font-size: medium;
+  padding-right: 4px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+a {
+  transition: time 0.5s;
+  color: green;
+}
+a:hover {
+  color: blue;
+}
+/* landing sectioon css */
+.content {
+  text-align: center;
+  padding: 10rem;
+  /* background: url(../images/eat.jpg) ;
+     background-size:cover; */
+  background-image: url(../images/eat.jpg);
+  background-size: cover;
+}
+.heading {
+  font-size: 30px;
+}
 
-   
+.content_subheading {
+  color: green;
+  font-size: 30px;
+}
+.btn_primary {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 14px;
+}
+/* video section */
+.video_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.highlight {
+  color: green;
+}
+.video {
+  border: 1px solid black;
+  padding: 4rem;
+  border-radius: 35px;
+}
+
+/* another section */
+.img2 {
+  display: flex;
+  align-items: center;
+  /* grid-column-start: 1; */
+}
+
+.healthy {
+  color: green;
+}
+.block {
+  display: flex;
+  margin: 7rem;
+  /* display:grid; */
+  /* grid-template-columns: auto auto; */
+}
+.texts {
+  margin: 3rem;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
